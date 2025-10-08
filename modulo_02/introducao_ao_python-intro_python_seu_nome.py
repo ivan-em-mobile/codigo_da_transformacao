@@ -3,6 +3,7 @@ nome do desafio_modulo_seunome.py
 Toda atividade ead, deverá ser nomeada com o padrão:
 (nome do desafio_modulo_seunome.py)
 introducao_ao_python-intro_python_seu_nome.py
+criar uma atividade ainda hoje.
 
 '''
 # print, exibir na tela
@@ -43,3 +44,4 @@ print(f"Você respondeu: {gosto_aprender} !") # posso juntar texto e variável
 
 
 print("Obrigado por participar do nosso sistema de ensino!")
+
