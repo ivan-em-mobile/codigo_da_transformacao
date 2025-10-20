@@ -3,7 +3,6 @@ Primicias
 Verifica se a pessoa é maior de idade com base na data de nascimento fornecida.
 Usar biblioteca de data para manipulação de datas.
 
-
 '''
 
 from datetime import date, datetime
