@@ -1,3 +1,7 @@
+'''
+simulador de cálculo de desconto para pedidos no iFood.
+Se o valor do pedido for maior ou igual a R$ 50,00, aplica um desconto de 10%.
+'''
 def calcular_valor_final(valor_pedido, taxa_entrega, desconto=0.10):
     """
     Calcula o valor total do pedido, aplicando desconto se for >= R$ 50.00.

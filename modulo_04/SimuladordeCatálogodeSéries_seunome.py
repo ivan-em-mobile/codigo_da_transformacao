@@ -1,3 +1,9 @@
+'''
+Simulador de Catálogo de Séries
+Este script permite ao usuário adicionar séries a um catálogo e acompanhar o progresso de visualização.
+'''
+
+
 # Lista principal para o catálogo (com uma série inicial para visualização)
 catalogo_series = [{
     "titulo": "The Crown",
