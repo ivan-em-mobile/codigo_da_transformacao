@@ -1,0 +1,13 @@
+[
+    {
+        "nome": "Ivan Silva Paulino",
+        "notas": [
+            8.0,
+            6.0,
+            8.0,
+            6.0
+        ],
+        "media": 7.0,
+        "status": "Aprovado"
+    }
+]

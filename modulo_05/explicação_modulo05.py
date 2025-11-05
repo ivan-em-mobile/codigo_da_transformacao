@@ -1,5 +1,8 @@
-# Exemplo de Código Base para o Módulo 5
+'''
+Exemplo de Código Base para o Módulo 5
+'''
 
+# def cal_media():
 def calcula_media(notas):
     """Calcula a média de uma lista de notas."""
     # sum(notas) soma todos os itens da lista
@@ -7,7 +10,8 @@ def calcula_media(notas):
     return sum(notas) / len(notas) # 
 
 def verificar_aprovacao(media):
-    """Verifica se o aluno foi aprovado (média >= 7)."""
+    """Verifica se o aluno foi aprovado (média >= 7).
+    Como poderiamos colocar as quantidades de faltas aqui?"""
     if media >= 7:
         return "Aprovado" # 
     else:
@@ -15,6 +19,12 @@ def verificar_aprovacao(media):
 
 # Notas do aluno
 notas_aluno = [8.0, 7.5, 6.0, 9.5]
+'''
+Preciso que crie um input para o usuário inserir as notas
+e depois transforme essas notas em uma lista de floats.
+notas_input = input("Insira as notas do aluno separadas por vírgula: ")
+notas_aluno = [float(nota) for nota in notas_input.split(',')]
+'''
 
 # Chamando as funções
 media_final = calcula_media(notas_aluno)
