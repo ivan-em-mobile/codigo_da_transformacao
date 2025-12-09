@@ -1,0 +1,26 @@
+'''
+Docstring para app
+Criado um aplicativo Flask simples que responde com uma mensagem de boas-vindas.
+
+'''
+
+# app.py
+
+# 1. Importa a classe Flask
+from flask import Flask
+
+# 2. Cria a instância do aplicativo Flask
+# O argumento __name__ ajuda o Flask a saber onde procurar arquivos
+app = Flask(__name__)
+
+# 3. Define a rota (endpoint) inicial
+# Quando o usuário acessa a raiz da URL ('/') esta função é executada
+@app.route('/')
+def hello_world():
+    # Retorna uma mensagem simples
+    return "Olá, Parceiro de Programação! Flask Funcionando! 🐍"
+
+# 4. Bloco condicional para rodar o servidor
+if __name__ == '__main__':
+    # Roda o aplicativo em modo de depuração (debug=True)
+    app.run(debug=True)
